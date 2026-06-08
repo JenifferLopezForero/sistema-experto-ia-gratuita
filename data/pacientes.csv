@@ -1,0 +1,4 @@
+id,nombre,fiebre,tos,dolor_cabeza,presion_alta
+1,Paciente A,38.5,True,True,False
+2,Paciente B,37.0,True,False,False
+3,Paciente C,39.5,False,True,True
