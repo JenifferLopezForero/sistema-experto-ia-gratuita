@@ -14,7 +14,7 @@ class ExpertAgent:
         # 1. GROQ
         if os.getenv("GROQ_API_KEY"):
             from groq import Groq
-            model = override or "llama3-8b-8192"
+            model = override or "llama-3.1-8b-instant"
             return "groq", model, Groq()
 
         # 2. GOOGLE GEMINI
